@@ -29,7 +29,7 @@ Obr.5 Principiálna schéma klasifikácie defektov zvarov pomocou CNN
 [Weld_Defect_Dataset](https://drive.google.com/drive/folders/1SUivIX-uDGs74XNegNQp95wvQ78C5DIe?usp=drive_link)
 
 Dosiahnuté výsledky:
-- Švec, Klasifikácia defektov robotmi realizovanými zvarmi AI nástrojom, DP FEI STU Bratislava, 2024, [Prezentacia_DP_Svec_Klasifikacia_defektov](document/HNS_Projekt_Gesta_ruky_Copjan_Murinova.pdf)
+- Švec, Klasifikácia defektov robotmi realizovanými zvarmi AI nástrojom, DP FEI STU Bratislava, 2024, [Prezentacia_DP_Svec_Klasifikacia_defektov](document/Prezentacia_DP_Svec_Klasifikacia_defektov_zvarov.pdf)
 
 Literatúra:
 - S. Kajan, M. Trebul'a, F. Duchoň, Z. Kovaríková, M. Švolík and D. Švec, "Robotic Vision Inspection of Weld Quality Using Convolutional Neural Networks," 2024 25th International Carpathian Control Conference (ICCC), Krynica Zdrój, Poland, 2024, pp. 01-05, doi: 10.1109/ICCC62069.2024.10569157. [Kajan_kol_Weld_Visual_Inspection](https://ieeexplore.ieee.org/document/10569157)
