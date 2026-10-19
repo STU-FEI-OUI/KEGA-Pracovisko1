@@ -75,3 +75,15 @@ Dosiahnuté výsledky:
 
 Literatúra:
 - Palček, Kajan, "Experimentálne porovnanie metód hlbokého učenia pre vizuálnu inšpekciu defektov," ŠVOČ, FEI STU Bratislava, 2026, [Palcek_Kajan_SVOC](document/Palcek_SVOC.pdf)
+
+- J.K. Chow, Z. Su, J. Wu, P.S. Tan, X. Mao, Y.H. Wang.,Anomaly detection of defects on concrete structures with
+the convolutional autoencoder. ScienceDirect - Advanced Engineering Informatics, Volume 45:4–5 str., August 2020, [Anomaly_detection_defects_autoenkoder](https://www.sciencedirect.com/science/article/pii/S1474034620300744)
+
+- P. Liznerski, L. Ruff, R. A. Vandermeulen, B. J. Franks, M. Kloft, and K.-R. Müller. Explainable deep one-class
+classification. Preprint arXiv:2007.01760, Marec 18, 2021. [Anomaly_detection_defects_FCDD](https://arxiv.org/abs/2007.01760)
+
+- L. Ruff, R. A. Vandermeulen, B. J. Franks, K.-R. Müller, and M. Kloft. Rethinking assumptions in deep anomaly
+detection. Preprint arXiv:2006.00339, Máj 30, 2020. [Anomaly_detection_defects_2](https://arxiv.org/abs/2006.00339)
+
+- K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. Preprint
+arXiv:1409.1556, April 10, 2015. [Anomaly_detection_defects_3](https://arxiv.org/abs/1409.1556)
