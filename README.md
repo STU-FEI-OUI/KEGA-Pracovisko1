@@ -23,7 +23,7 @@ Na automatickú detekciu a klasifikáciu defektov možno využiť metódy spraco
 Kombinácia obrazových a geometrických údajov vytvára predpoklady na zvýšenie spoľahlivosti rozpoznávania defektov a umožňuje objektívne hodnotenie kvality zvarových spojov v priemyselných podmienkach. 
 Na obrázku je znázornený princíp klasifikácie defektov zvarov pomocou CNN, kde obraz z kamery vstupuje do CNN, ktorá z obrazu získa príznaky potrebné na binárnu klasifikáciu Defekt/Bez defektu alebo viactriednu, kde sa určí aj typ defektu.
 ![princip weld defect](image/klasifikacia_weld_defekt_princip.png)
-Obr.5 Principiálna schéma klasifikácie defektov zvarov pomocou CNN
+Obr.1 Principiálna schéma klasifikácie defektov zvarov pomocou CNN
 
 #### Dataset - Kontrola kvality zvarov z kamery – 4 skupiny (Ok, 2025-kráterový lunker, 510-diera, 500-poškodený povrch zvaru):
 [Weld_Defect_Camera_Dataset](https://drive.google.com/drive/folders/1SUivIX-uDGs74XNegNQp95wvQ78C5DIe?usp=drive_link)
@@ -46,3 +46,32 @@ Literatúra:
 
 - S. Kajan, M. Trebuľa, "Robotická vizuálna kontrola zvarov využitím metód hlbokého učenia," ATP Journal júl 2025. [Kajan_Trebula_Weld_Defect_ATP](https://www.atpjournal.sk/rubriky/prehladove-clanky/roboticka-vizualna-kontrola-zvarov-vyuzitim-metod-hlbokeho-ucenia.html?page_id=42144)
 
+### Detekcia defektov výrobkov pomocou autoenkóderov a FCDD hlbokých neurónových sietí.
+**Detekcia defektov výrobkov (casting dataset) pomocou Autoenkódera a FCDD**
+
+Automatická vizuálna kontrola kvality výrobkov predstavuje významnú oblasť využitia metód umelej inteligencie v priemyselnej výrobe. 
+Jednou z dôležitých úloh je identifikácia defektných výrobkov na základe analýzy ich obrazových údajov. 
+Pri riešení tejto úlohy sa čoraz častejšie využívajú metódy hlbokého učenia zamerané na detekciu anomálií, ktoré umožňujú rozpoznávať defekty aj bez potreby rozsiahlych množín označených obrazov chybných výrobkov.
+
+Cieľom úlohy je navrhnúť a experimentálne porovnať metódy klasifikácie defektných a bezchybných výrobkov založené na **autoenkóderoch (AE)** a **hlbokých neurónových sieťach FCDD (Fully Convolutional Data Description)**. 
+Autoenkódery využívajú princíp rekonštrukcie vstupného obrazu, pričom odchýlky medzi pôvodným a rekonštruovaným obrazom môžu indikovať prítomnosť defektov. 
+Metóda FCDD je založená na učení príznakovej reprezentácie obrazov a umožňuje identifikovať anomálne oblasti prostredníctvom priestorových máp anomálií.
+Na experimentálne overenie navrhnutých riešení bude použitý verejne dostupný **dataset Casting**, ktorý obsahuje obrazy bezchybných a defektných kovových odliatkov. 
+Súčasťou riešenia bude predspracovanie obrazových údajov, návrh a trénovanie neurónových modelov, optimalizácia ich parametrov a vyhodnotenie dosiahnutých výsledkov pomocou vhodných klasifikačných metrík. 
+Osobitná pozornosť bude venovaná porovnaniu úspešnosti klasifikácie jednotlivých metód a možnostiam lokalizácie defektov na povrchu výrobkov vizualizačnými technikami Grad-CAM.
+
+![struktura autoenkoder](image/autoenkoder_defekt_princip.png)
+Obr.2 Architektúra autoenkódera na detekciu defektov
+
+![struktura FCDD](image/FCDD_defekt_princip.png)
+Obr.2 Architektúra FCDD na detekciu defektov
+
+#### Casting Dataset - obrazy bezchybných a defektných kovových odliatkov – binárna klasifikácia:
+[Casting_Dataset_Drive](https://drive.google.com/drive/folders/1pNCrX0CoxX2uKjdOMzKOOCkc1X3u8WQc?usp=drive_link) , 
+[Casting_Dataset_Kaggle](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product)
+
+Dosiahnuté výsledky:
+- Palček, Vizuálna kontrola zvarov pomocou hlbokých neurónových sietí, DP FEI STU Bratislava, 2026, [Prezentacia_SVOC_Palcek_Detekcia_defektov](document/Prezentacia_SVOC_Palcek_Detekcia_defektov.pdf)
+
+Literatúra:
+- Palček, Kajan, "Experimentálne porovnanie metód hlbokého učenia pre vizuálnu inšpekciu defektov," ŠVOČ, FEI STU Bratislava, 2026, [Palcek_Kajan_SVOC](document/Palcek_SVOC.pdf)
