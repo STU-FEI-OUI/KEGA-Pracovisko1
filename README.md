@@ -26,14 +26,23 @@ Na obrázku je znázornený princíp klasifikácie defektov zvarov pomocou CNN, 
 Obr.5 Principiálna schéma klasifikácie defektov zvarov pomocou CNN
 
 #### Dataset - Kontrola kvality zvarov z kamery – 4 skupiny (Ok, 2025-kráterový lunker, 510-diera, 500-poškodený povrch zvaru):
-[Weld_Defect_Dataset](https://drive.google.com/drive/folders/1SUivIX-uDGs74XNegNQp95wvQ78C5DIe?usp=drive_link)
+[Weld_Defect_Camera_Dataset](https://drive.google.com/drive/folders/1SUivIX-uDGs74XNegNQp95wvQ78C5DIe?usp=drive_link)
+
+Dataset - Kontrola kvality zvarov z laserového skenera – 2 skupiny (binárna klasifikácia Good/Bad Weld):
+[Weld_Defect_Laser_Dataset](https://drive.google.com/drive/folders/1dyKmhW-oL_biiiVoooNsTCJpm8OgUhDl?usp=drive_link)
+
 
 Dosiahnuté výsledky:
-- Švec, Klasifikácia defektov robotmi realizovanými zvarmi AI nástrojom, DP FEI STU Bratislava, 2024, [Prezentacia_DP_Svec_Klasifikacia_defektov](document/Prezentacia_DP_Svec_Klasifikacia_defektov_zvarov.pdf)
+- Švec, Klasifikácia defektov robotmi realizovanými zvarmi AI nástrojom, DP FEI STU Bratislava, 2024, [Prezentacia_DP_Svec_Klasifikacia_defektov_zvarov_kamera](document/Prezentacia_DP_Svec_Klasifikacia_defektov_zvarov.pdf)
+
+- Adam, Detekcia defektov zvarov pomocou hlbokých neurónových sietí, DP FEI STU Bratislava, 2025, [Prezentacia_DP_Adam_Klasifikacia_defektov_zvarov_laser](document/Prezentacia_DP_Adam_Klasifikacia_defektov_zvarov.pdf)
+
+- Palček, Vizuálna kontrola zvarov pomocou hlbokých neurónových sietí, DP FEI STU Bratislava, 2026, [Prezentacia_DP_Palcek_Klasifikacia_defektov_zvarov_plechov](document/Prezentacia_DP_Palcek_Klasifikacia_defektov_zvarov.pdf)
 
 Literatúra:
-- S. Kajan, M. Trebul'a, F. Duchoň, Z. Kovaríková, M. Švolík and D. Švec, "Robotic Vision Inspection of Weld Quality Using Convolutional Neural Networks," 2024 25th International Carpathian Control Conference (ICCC), Krynica Zdrój, Poland, 2024, pp. 01-05, doi: 10.1109/ICCC62069.2024.10569157. [Kajan_kol_Weld_Visual_Inspection](https://ieeexplore.ieee.org/document/10569157)
+- S. Kajan, M. Trebuľa, F. Duchoň, Z. Kovaríková, M. Švolík and D. Švec, "Robotic Vision Inspection of Weld Quality Using Convolutional Neural Networks," 2024 25th International Carpathian Control Conference (ICCC), Krynica Zdrój, Poland, 2024, pp. 01-05, doi: 10.1109/ICCC62069.2024.10569157. [Kajan_kol_Weld_Visual_Inspection](https://ieeexplore.ieee.org/document/10569157)
 
-- S. Kajan, M. Trebul’a, F. Duchoň, Z. Kovaríková, M. Kováč and J. Pavlovičová, "Weld Defect Recognition and Detection from Video Using Deep Learning Methods," 2025 Cybernetics & Informatics (K&I), Mikulov na Morave, Czech Republic, 2025, pp. 1-5, doi: 10.1109/KI64036.2025.10916449. [Kajan_kol_Weld_Defect_Recognition](https://ieeexplore.ieee.org/document/10916449)
+- S. Kajan, M. Trebuľa, F. Duchoň, Z. Kovaríková, M. Kováč and J. Pavlovičová, "Weld Defect Recognition and Detection from Video Using Deep Learning Methods," 2025 Cybernetics & Informatics (K&I), Mikulov na Morave, Czech Republic, 2025, pp. 1-5, doi: 10.1109/KI64036.2025.10916449. [Kajan_kol_Weld_Defect_Recognition](https://ieeexplore.ieee.org/document/10916449)
 
+- S. Kajan, M. Trebuľa, "Robotická vizuálna kontrola zvarov využitím metód hlbokého učenia," ATP Journal júl 2025. [Kajan_Trebula_Weld_Defect_ATP](https://www.atpjournal.sk/rubriky/prehladove-clanky/roboticka-vizualna-kontrola-zvarov-vyuzitim-metod-hlbokeho-ucenia.html?page_id=42144)
 
