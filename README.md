@@ -64,7 +64,7 @@ Osobitná pozornosť bude venovaná porovnaniu úspešnosti klasifikácie jednot
 Obr.2 Architektúra autoenkódera na detekciu defektov
 
 ![struktura FCDD](image/FCDD_defekt_princip.png)
-Obr.2 Architektúra FCDD na detekciu defektov
+Obr.3 Architektúra FCDD na detekciu defektov
 
 #### Casting Dataset - obrazy bezchybných a defektných kovových odliatkov – binárna klasifikácia:
 [Casting_Dataset_Drive](https://drive.google.com/drive/folders/1pNCrX0CoxX2uKjdOMzKOOCkc1X3u8WQc?usp=drive_link) , 
@@ -87,3 +87,20 @@ detection. Preprint arXiv:2006.00339, Máj 30, 2020. [Anomaly_detection_defects_
 
 - K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. Preprint
 arXiv:1409.1556, April 10, 2015. [Anomaly_detection_defects_3](https://arxiv.org/abs/1409.1556)
+
+### Praktické príklady klasifikácie defektov pomocou CNN.
+**Praktické príklady defektov - jamy na ceste, defekty na pneumatikách, detekcia požiaru**
+
+V praxi sa veľmi často stretávame s riešením úloh detekcie defektných (anomálnych) stavov. Na príkladoch ako sú jamy na ceste, defekty na pneumatikách, detekcia požiaru si overíme schopnosť CNN riešiť problematiku detekcie defektov.  
+Cieľom úlohy je navrhnúť a experimentálne porovnať rôzne štruktúry CNN alebo Vizuálnych transformerov (ViT) pre rôzne úlohy klasifikácie defektov.
+Na experimentálne overenie navrhnutých riešení budú použité verejne dostupné datasety. 
+Súčasťou riešenia bude predspracovanie obrazových údajov, návrh a trénovanie neurónových modelov, optimalizácia ich parametrov a vyhodnotenie dosiahnutých výsledkov pomocou vhodných klasifikačných metrík. 
+Osobitná pozornosť bude venovaná porovnaniu úspešnosti klasifikácie jednotlivých modelov a možnostiam lokalizácie defektov na obraze vizualizačnými technikami Grad-CAM.
+
+#### Datasety detekcia defektov - jamy na ceste, defekty na pneumatikách, detekcia požiaru:
+[Jamy_cesta_Dataset_Drive](https://drive.google.com/drive/folders/1d3atNCQK9POrsjQJiVZ6M8HoPEfCaTn6?usp=drive_link) 
+
+[Pneumatiky_Dataset_Drive](https://drive.google.com/drive/folders/1EO9dj8x2OM21ZSBs8xlqTLSzH-FDLOBB?usp=drive_link)
+
+[Poziar_Dataset_Kaggle](https://www.kaggle.com/datasets/amerzishminha/forest-fire-smoke-and-non-fire-image-dataset)
+
