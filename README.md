@@ -104,3 +104,38 @@ Osobitná pozornosť bude venovaná porovnaniu úspešnosti klasifikácie jednot
 
 [Poziar_Dataset_Kaggle](https://www.kaggle.com/datasets/amerzishminha/forest-fire-smoke-and-non-fire-image-dataset)
 
+Dosiahnuté výsledky:
+- Mihálik, Tinák, Rozpoznávanie jám na ceste, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Mihalik_Tinak](document/Prezentacia_HNS_Projekt_Detekcia_jam_Mihalik_Tinak.pdf)
+
+- Piwková, Práznovský, Rozpoznávanie defektov na pneumatikách, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Piwkova_Praznovsky](document/Prezentacia_HNS_Projekt_Detekcia_pneumatiky_Piwkova_Praznovsky.pdf)
+
+
+**Priemyselné datasety**
+Dataset povrchových defektov oceľového pásu  – NEU Surface defect Dataset
+Klasifikácia defektov oceľového plechu, 6 skupín (valcované okuje (RS), škvrny (Pa), praskliny (Cr), jamkovitý povrch (PS), inklúzie (In) a škrabance (Sc))
+( [Dataset_NEU_DET](https://www.kaggle.com/datasets/rdsunday/neu-urface-defect-database) )
+
+Magnetic Tile Defect Dataset
+Dataset na namierený na kontrolu kvality produktov v továrňach na magnetické dlaždice v provincii Zhejiang v Číne, najväčšej výrobnej základni magnetických dlaždíc na svete. 
+Na zmiernenie ľudskej práce bolo navrhnutých mnoho techník spracovania obrazu, ktoré sa pokúšajú o vykonanie takýchto kontrolných úloh. 
+Pri automatickej detekcii poškodenia magnetických dlaždíc sa vyskytlo niekoľko úzkych miest, vrátane zložitosti textúry, rozmanitosti tvarov defektov a náhodnosti svetelných podmienok na magnetických dlaždiciach. 
+Cieľové defekty sú praskliny, zlomy a strapce.
+( [Dataset_Magnetic_Tile](https://www.kaggle.com/datasets/alex000kim/magnetic-tile-surface-defects) )
+
+GC10-DET - Metallic Surface Defect Detection
+Detekcia defektov kovových povrchov je nevyhnutný a nevyhnutný proces na kontrolu kvality priemyselných výrobkov. 
+Vzhľadom na obmedzený rozsah údajov a kategórie defektov však existujúce súbory údajov o defektoch vo všeobecnosti nie sú k dispozícii na nasadenie detekčného modelu. 
+Na riešenie tohto problému prispievame novým súborom údajov s názvom GC10-DET na detekciu defektov kovových povrchov vo veľkom meradle. 
+Súbor údajov GC10-DET má veľké výzvy, pokiaľ ide o kategórie defektov, počet obrázkov a rozsah údajov. 
+( [Dataset_GC10_DET](https://www.kaggle.com/datasets/alex000kim/gc10det/data) )
+
+AL10-DET (Aluminum 10 Defect Detection Dataset) 
+je dataset určený na detekciu povrchových defektov hliníkových profilov pomocou metód objektovej detekcie.
+AL10-DET obsahuje snímky povrchu extrudovaných hliníkových profilov získané v priemyselných výrobných podmienkach.
+( [Dataset_AL10_DET](https://www.kaggle.com/datasets/arcanine9/al10-det/data) )
+
+Dosiahnuté výsledky:
+- Szépvölgyi, Porovnanie detektorov na priemyselných datasetov, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Szépvölgyi](document/HNS_Projekt_Gesta_ruky_Copjan_Murinova.pdf)
+
+Literatúra:
+- J. Goga and S. Kajan, "Hand gesture recognition using 3D sensors," 2017 International Symposium ELMAR, Zadar, Croatia, 2017, pp. 181-184, doi: 10.23919/ELMAR.2017.8124463. [Goga_Kajan_Gestures_recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8124463)
