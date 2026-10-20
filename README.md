@@ -135,7 +135,5 @@ AL10-DET obsahuje snímky povrchu extrudovaných hliníkových profilov získan�
 ( [Dataset_AL10_DET](https://www.kaggle.com/datasets/arcanine9/al10-det/data) )
 
 Dosiahnuté výsledky:
-- Szépvölgyi, Porovnanie detektorov na priemyselných datasetov, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Szépvölgyi](document/HNS_Projekt_Gesta_ruky_Copjan_Murinova.pdf)
+- Szépvölgyi, Porovnanie detektorov na priemyselných datasetov, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Szépvölgyi](document/Prezentacia_Szepvolgyi_Porovnanie_detektorov.pdf)
 
-Literatúra:
-- J. Goga and S. Kajan, "Hand gesture recognition using 3D sensors," 2017 International Symposium ELMAR, Zadar, Croatia, 2017, pp. 181-184, doi: 10.23919/ELMAR.2017.8124463. [Goga_Kajan_Gestures_recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8124463)
