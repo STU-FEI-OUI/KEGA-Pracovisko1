@@ -137,3 +137,12 @@ AL10-DET obsahuje snímky povrchu extrudovaných hliníkových profilov získan�
 Dosiahnuté výsledky:
 - Szépvölgyi, Porovnanie detektorov na priemyselných datasetov, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Szépvölgyi](document/Prezentacia_Szepvolgyi_Porovnanie_detektorov.pdf)
 
+#### Dataset detekcia defektov na podložkách - 4 typy defektov (jamka - circular_cavity, šrabanec - scratch, zárez – burr, prevýšenie materiálu - excess_material):
+[Klasifikacia_defekty_Podložky](https://drive.google.com/drive/folders/1PVE357M-8uburXtl5kFwjo_nowSup1Xx?usp=drive_link)
+
+Detekcia defektov pomocou YOLO detektora
+
+[Detekcia_defekty_Podložky](https://drive.google.com/drive/folders/1QcswFcZ1FPBEZM2TyV8x0bvTimcJgAfQ?usp=drive_link)
+
+[Detekcia_defekty_Podložky_Roboflow](https://universe.roboflow.com/hemorrhagesegmentation/tp26_detection)
+
