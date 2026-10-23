@@ -146,3 +146,23 @@ Detekcia defektov pomocou YOLO detektora
 
 [Detekcia_defekty_Podložky_Roboflow](https://universe.roboflow.com/hemorrhagesegmentation/tp26_detection)
 
+### Detekcia anomálií - signálne data - jedno triedna klasifikácia iba z normálnych dát.
+**Detekcia ochorenia z EKG signálu**
+
+### Detekcia anomálií v signálnych dátach metódami jednotriednej klasifikácie
+
+Detekcia anomálií v signálnych dátach predstavuje významnú úlohu pri monitorovaní technických systémov, diagnostike porúch a identifikácii neštandardných prevádzkových stavov. 
+Cieľom je automaticky rozpoznať odchýlky od normálneho správania systému na základe analýzy nameraných signálov, napríklad teploty, tlaku, vibrácií alebo elektrických veličín. 
+Pri riešení tejto úlohy možno využiť **metódy jednotriednej klasifikácie (One-Class Classification)**, ktoré sa učia charakteristické vlastnosti normálnych dát bez potreby rozsiahlej množiny vzoriek reprezentujúcich poruchové stavy.
+
+Medzi vhodné metódy patrí **One-Class SVM**, ktorá vytvára rozhodovaciu hranicu oddeľujúcu normálne vzorky od anomálií, **Isolation Forest**, ktorá identifikuje anomálie na základe ich jednoduchšej izolovateľnosti pomocou náhodných rozhodovacích stromov, 
+a **autoenkóder (Autoencoder)**, ktorý sa učí rekonštruovať normálne signály a anomálie deteguje na základe zvýšenej chyby rekonštrukcie.
+
+Experimentálne porovnanie metód bude realizované na verejne dostupnom datasete ECG5000, ktorý obsahuje elektrokardiografické signály s normálnymi aj abnormálnymi priebehmi. 
+Modely budú trénované na normálnych vzorkách signálov a následne testované na dátach obsahujúcich normálne aj anomálne vzorky. 
+Cieľom je porovnať schopnosť jednotlivých metód detegovať anomálie pomocou vhodných klasifikačných metrík, analyzovať vplyv nastavenia parametrov modelov a vyhodnotiť ich výpočtovú náročnosť.
+
+Dataset ECG5000 je verejne dostupná množina elektrokardiografických (EKG) signálov pochádzajúcich z databázy BIDMC Congestive Heart Failure Database (PhysioNet). 
+Obsahuje 5 000 vzoriek jednotlivých srdcových cyklov získaných zo záznamu pacienta so závažným srdcovým zlyhávaním. Každá vzorka predstavuje jeden srdcový cyklus, ktorý bol interpoláciou upravený na jednotnú dĺžku 140 hodnôt.
+( [Dataset_ECG5000](https://www.kaggle.com/datasets/devavratatripathy/ecg-dataset/data) )
+
